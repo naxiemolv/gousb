@@ -19,7 +19,7 @@ import (
 	"fmt"
 )
 
-// #include <libusb.h>
+// #include "libusb/windows/include/libusb-1.0/libusb.h"
 import "C"
 
 // Error is an error code from a USB operation. See the list of Error constants below.

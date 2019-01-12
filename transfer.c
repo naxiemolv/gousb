@@ -13,7 +13,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include <libusb.h>
+#include "libusb/windows/include/libusb-1.0/libusb.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

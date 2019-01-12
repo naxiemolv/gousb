@@ -13,7 +13,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include <libusb.h>
+#include "libusb/windows/include/libusb-1.0/libusb.h"
 
 void gousb_set_debug(libusb_context *ctx, int lvl) {
     // TODO(sebek): remove libusb_debug entirely in 2.1 or 3.0,

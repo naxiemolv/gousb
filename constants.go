@@ -15,7 +15,7 @@
 
 package gousb
 
-// #include <libusb.h>
+// #include "libusb/windows/include/libusb-1.0/libusb.h"
 import "C"
 import "strconv"
 

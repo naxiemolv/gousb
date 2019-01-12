@@ -24,8 +24,9 @@ import (
 )
 
 /*
-#cgo pkg-config: libusb-1.0
-#include <libusb.h>
+#cgo LDFLAGS: -L./libusb/windows/MinGW64/dll/ -lusb-1.0
+#cgo LDFLAGS: -L./libusb/windows/MinGW32/dll/ -lusb-1.0
+#include "libusb/windows/include/libusb-1.0/libusb.h"
 
 int gousb_compact_iso_data(struct libusb_transfer *xfer, unsigned char *status);
 struct libusb_transfer *gousb_alloc_transfer_and_buffer(int bufLen, int numIsoPackets);
